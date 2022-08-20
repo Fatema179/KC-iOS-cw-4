@@ -37,6 +37,13 @@ struct ContentView: View {
                         if (Double(finalGrade) ?? 0) >= 90 {
                             gradedes = "امتياز"
                         }
+                        else if (Double(finalGrade) ?? 0) >= 80 {
+                            gradedes = "جيد جداً"
+                        }
+                        else if (Double(finalGrade) ?? 0) >= 70 {
+                            gradedes = "جيد"
+                        }
+                        
                         else{
                             gradedes = "رسوب"
                         }
